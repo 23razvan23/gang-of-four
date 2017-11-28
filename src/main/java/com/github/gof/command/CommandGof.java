@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 //Command = Function, Action (not an object)
+//Command is replaced with Function (Java 8 refactoring)
 public class CommandGof {
     interface Command {
         void run();
